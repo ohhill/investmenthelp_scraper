@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Scraped data (contains personal contact details)
+data/
+*.csv
+*.txt
+!requirements*.txt
+
+# Saved pages / archives (test fixtures are anonymized and kept)
+*.zip
+*.html
+!tests/fixtures/*.html
+
+# Secrets
+.env
